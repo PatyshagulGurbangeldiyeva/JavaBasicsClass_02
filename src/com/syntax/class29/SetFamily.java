@@ -39,11 +39,11 @@ public class SetFamily {
 		// TreeSet ---> here will have alphabetic order when we will print it
 		Set <String> food= new TreeSet<>(veggies);// --> here we are passing (veggies) another collection to the class that we are creating
 		// <Object> or we can write it here so we can add different obj type									// 
-		food.addAll(fruit); // we can add another collection to the created class in this way too
+	//	food.addAll(fruit); // we can add another collection to the created class in this way too
 	//	food.add("hamburger");
 	//	food.add("lahmacun");----> you can add new food objs or just print the objs that you added from other class
 		
-System.out.println(food);
+System.out.println(food);// ---> here you will print the fruit and veggies 
 	}
 
 }
