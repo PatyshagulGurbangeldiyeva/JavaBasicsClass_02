@@ -19,7 +19,7 @@ public class OtherMaps {
 		lmap.put(980, "Chloe");
 		lmap.put(3452, "Lila");
 		
-		System.out.println(lmap);// sortng as we declared it
+		System.out.println(lmap);// sorting as we declared it
 		
 		System.out.println("******************");
 		

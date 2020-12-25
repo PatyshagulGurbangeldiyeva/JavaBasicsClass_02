@@ -29,7 +29,7 @@ System.out.println(size); //---> it gives the number of entries
 hmap.put("Zipcode", "23466");
 System.out.println(hmap);
 
-// can we store duplicate keys? NO, the previous values will pe replaced
+// can we store duplicate keys? NO, the previous values will be replaced
 
 hmap.put("Name", "Jane");
 System.out.println(hmap); // there is no order while printing
@@ -40,7 +40,7 @@ System.out.println("*****************************");
 System.out.println(hmap.get("Name"));
 
 // can we remove the value? yes
-hmap.remove("Address");
+hmap.remove("Address"); //----> we are writing key in order to remove
 System.out.println(hmap);
 
 System.out.println("********************");
@@ -50,6 +50,11 @@ System.out.println(hmap);
 hmap.replace("City", "Richerdson"); // the uppercase must be similar with the key that you declared before!!!!
 System.out.println(hmap);
 
+System.out.println();
+
+// in order to varify is key/value exist in the map
+boolean answer=hmap.containsKey("Judy");//---> we can write key or value
+System.out.println(answer);
 	}
 
 }
